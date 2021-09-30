@@ -1,0 +1,12 @@
+body{
+    text-align:center;
+}
+label{
+    display: block;
+    padding-bottom: 1rem;
+}
+input{
+    display: block;
+    margin:auto;
+    width: fit-content;
+}
