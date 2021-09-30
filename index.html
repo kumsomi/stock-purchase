@@ -10,26 +10,34 @@
 </head>
 
 <body>
-    <h1>Stocks Purchase</h1>
-    <main>
-        <label for="initial-price">Initial price
-            <input type="number" required placeholder="Enter Initial Price" id="initial-price">
-        </label>
-
-        <label for="stocks-quantity">Quantity of the stocks
-            <input type="number" required placeholder="Enter the number of stocks bought" id="stocks-quantity">
-        </label>
-
-        <label for="current-price">Current Price
-            <input type="number" required placeholder="Enter the current price of the stocks" id="current-price">
-        </label>
-
-        <button id="submit-button">Tell Me!!</button>
-        
-        <div id="output-box"></div> 
-       
-        
+    <main class="mains">
+        <h1>Stocks Purchase - profit or loss</h1>
+        <div class="container">
+            <label for="initial-price">Initial price
+                <input type="number" required placeholder="Enter Initial Price" id="initial-price">
+            </label>
+    
+            <label for="stocks-quantity">Quantity of the stocks
+                <input type="number" required placeholder="Enter the number of stocks bought" id="stocks-quantity">
+            </label>
+    
+            <label for="current-price">Current Price
+                <input type="number" required placeholder="Enter the current price of the stocks" id="current-price">
+            </label>
+    
+            <button id="submit-button">Tell Me!!</button>
+            
+            <div id="output-box"></div> 
+        </div>
     </main>
+    <footer class="footer">
+        <h3>Let's connect</h3>
+        <ul class="non-bullet">
+            <li class="list-item-inline"><a href="https://github.com/KumSomi"><span class="fab fa-github-square"></span>github</a></li>
+            <li class="list-item-inline"><a href="https://twitter.com/somi_kaushik"><span class="fab fa-twitter-square"></span> twitter</a></li>
+            <li class="list-item-inline"><a href="https://www.linkedin.com/in/kum-somi-25aa8a152/"><span class="fab fa-linkedin"></span>linkedin</a></li>
+        </ul>
+    </footer>
     <script src="app.js"></script>
 </body>
 
